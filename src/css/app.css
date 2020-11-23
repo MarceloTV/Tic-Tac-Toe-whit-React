@@ -1,0 +1,27 @@
+.main{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.evenly{
+    justify-content: space-evenly;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.box > div {
+    border-radius: 0 !important;
+}
+
+.byte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
