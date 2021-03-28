@@ -1,27 +1,75 @@
-.main{
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
+.main {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
 }
 
-.evenly{
-    justify-content: space-evenly;
+.evenly {
+  justify-content: space-evenly;
 }
 
-.box{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
 .box > div {
-    border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 
-.byte{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.byte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .cardGame {
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cardGame {
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cardGame {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cardGame {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .tictactoe {
+    padding: 10px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .tictactoe {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-height: 654px) {
+  .byte {
+    height: 125px !important;
+  }
+}
+
+@media screen and (max-height: 579px) {
+  .byte {
+    height: 100px !important;
+  }
 }
